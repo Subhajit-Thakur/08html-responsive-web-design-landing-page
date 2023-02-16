@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: cadetblue; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+nav img {
+    width: 8%;
+}
+
+.nav-items h5 {
+    float: left;
+    padding: 18px;
+    font-size: 14px;
+}
+
+nav button {
+    padding: 0px 10px;
+    margin: 16px;
+    border-radius: 25px;
+    border: none;
+    background-color: aqua;
+    color: white;
+    font-weight: 700;
+}
+
+/* intro section */
+
+.intro-section {
+    display: flex;
+}
+
+.left-section {
+    float: left;
+}
+
+.left-section h1 {
+    font-size: 68px;
+    margin-left: 110px;
+    margin-top: 135px;
+}
+
+.left-section h4 {
+    margin-left: 110px;
+    margin-top: 50px;
+    width: 55%;
+    line-height: 28px;
+    color: grey;
+}
+
+.left-section button {
+    margin-left: 110px;
+    margin-top: 50px;
+    padding: 10px 24px;
+    border-radius: 32px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.imgs-div {
+    float: right;
+}
+
+.imgs-div img:nth-child(1) {
+    position: absolute;
+    margin-top: 550px;
+}
+
+.imgs-div img:nth-child(2) {
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 58px;
+}
+
+.imgs-div img:nth-child(3) {
+    margin-top: 30px;
+    margin-right: 18px;
+}
